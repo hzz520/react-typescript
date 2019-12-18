@@ -3,7 +3,7 @@
 # Created by https://www.gitignore.io/api/visualstudiocode,macos
 # Edit at https://www.gitignore.io/?templates=visualstudiocode,macos
 
-/node_modules
+/node_modules/*
 
 ### macOS ###
 # General
