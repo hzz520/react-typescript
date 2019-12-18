@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/",
+        "allowJs": true,
+        "sourceMap": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "module": "esnext",
+        "target": "es5",
+        "rootDir": "src",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "moduleResolution": "node",
+        "lib": [
+            "dom", 
+            "es6"
+        ],
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "baseUrl": "./",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ]
+        }
+    },
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "webpack",
+        "webpack-dev-server"
+    ]
+}
