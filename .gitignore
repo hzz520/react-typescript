@@ -4,6 +4,7 @@
 # Edit at https://www.gitignore.io/?templates=visualstudiocode,macos
 
 /node_modules/*
+package-lock.json
 
 ### macOS ###
 # General
