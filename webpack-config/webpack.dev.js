@@ -17,9 +17,6 @@ const webpackDevConfig = {
         compress: true,
         hot: true,
         host: '0.0.0.0',
-        allowedHosts: [
-            'test.58.com'
-        ],
         useLocalIp: true,
         disableHostCheck: true,
         historyApiFallback: {
